@@ -1,3 +1,6 @@
+from math import factorial
+
+
 class MyMath:
     def __init__(self) -> None:
         pass
@@ -9,3 +12,6 @@ class MyMath:
             f *= number
 
         return f
+
+print(factorial(3))
+print(factorial(5))
