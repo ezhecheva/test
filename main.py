@@ -13,10 +13,9 @@ class MyMath:
 
         return f
 
-    def addition(self, x, y):
+    def addition(self, x: int, y: int):
         return x + y
 
 print(factorial(3))
 print(factorial(5))
-
     
