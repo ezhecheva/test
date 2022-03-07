@@ -13,5 +13,11 @@ class MyMath:
 
         return f
 
+    def addition(self, x, y):
+        self.x = x
+        self.y = y
+
 print(factorial(3))
 print(factorial(5))
+
+    
